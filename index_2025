@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang=\"zh\">
+<head>
+  <meta charset=\"UTF-8\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+  <title>我的个人主页</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0 auto; max-width: 700px; line-height: 1.6; }
+    header, main, footer { padding: 20px; }
+    .intro { display: flex; align-items: center; }
+    .intro img { max-width: 150px; border-radius: 50%; margin-left: 20px; }
+    .paper { margin-bottom: 15px; padding: 10px; border-left: 3px solid #007BFF; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class=\"intro\">
+      <div>
+        <h1>你好，我是[你的名字]</h1>
+        <p>简短的自我介绍，突出你的研究领域或兴趣爱好。</p>
+      </div>
+      <img src=\"your-photo.jpg\" alt=\"我的照片\">
+    </div>
+  </header>
+
+  <main>
+    <h2>我的研究</h2>
+    <div class=\"paper\">
+      <h3>论文标题一</h3>
+      <p>论文的简短摘要或描述。</p>
+    </div>
+    <div class=\"paper\">
+      <h3>论文标题二</h3>
+      <p>论文的简短摘要或描述。</p>
+    </div>
+    <div class=\"paper\">
+      <h3>论文标题三</h3>
+      <p>论文的简短摘要或描述。</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 我的个人主页 | <a href=\"mailto:your.email@example.com\">your.email@example.com</a></p>
+  </footer>
+</body>
+</html>
